@@ -1,12 +1,14 @@
-# TODO api with Nodejs
+# TODO API with Nodejs
 
 ## Requirements
     * nodejs >= 10.16
     * npm >= 6.9
 
-## Dev instructions
+## Setup
     * copy .env.example to .env
     * npm install
+    
+## Development
     * npm run dev
 
 ## Packages
