@@ -7,7 +7,8 @@ const app = express();
 
 app.get("/", (req, res) => {
   res.json({
-    message: "Esto no es backend",
+    status: "ok",
+    message: "Success",
   });
 });
 
