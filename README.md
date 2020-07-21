@@ -14,3 +14,14 @@
 ## Packages
     * express
     * dotenv
+
+## Task List
+    - [] Setup Project
+        - [] Install express
+    - [] 
+    - [] 
+    - [] 
+    - [] 
+    - [] 
+    - [] 
+    - [] 
