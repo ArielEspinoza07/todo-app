@@ -11,17 +11,19 @@
 ## Development
     * npm run dev
 
-## Packages
+## Dependencies
     * express
     * dotenv
 
+## DevDependencies
+    * nodemon
+
 ## Task List
-    - [] Setup Project
-        - [] Install express
-    - [] 
-    - [] 
-    - [] 
-    - [] 
-    - [] 
-    - [] 
-    - [] 
+- [] Setup Project
+    - [] Install express
+    - [] Install dotenv
+    - [] Create folder src
+    - [] Create file index in src
+    - [] Create file app in src
+    - [] Add comand start to package.json
+    - [] Add comand dev to package.json
