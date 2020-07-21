@@ -18,12 +18,12 @@
 ## DevDependencies
     * nodemon
 
-## Task List
-- [] Setup Project
-    - [] Install express
-    - [] Install dotenv
-    - [] Create folder src
-    - [] Create file index in src
-    - [] Create file app in src
-    - [] Add comand start to package.json
-    - [] Add comand dev to package.json
+## TODO
+* [x] Setup Project
+    * [x] Install express
+    * [x] Install dotenv
+    * [x] Create folder src
+    * [x] Create file index in src
+    * [x] Create file app in src
+    * [x] Add comand start to package.json
+    * [x] Add comand dev to package.json
