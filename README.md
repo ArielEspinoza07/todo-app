@@ -41,15 +41,14 @@
     * [x] Create file index in src
     * [x] Create file app in src
 *   TODO
-    * Taks 
-        * Controllers 
-            * [x] Create Task file
-        * Middlewares
-            * [x] Create index file
-            * [x] Create logger file 
-        * Models 
-            * [x] Create Task file
-        * Routes 
-            * [x] Create index file
-            * [x] Create task file
-                * [x] Create Restful routes    
+    * Controllers 
+        * [x] Create Task file
+    * Middlewares
+        * [x] Create index file
+        * [x] Create logger file 
+    * Models 
+        * [x] Create Task file
+    * Routes 
+        * [x] Create index file
+        * [x] Create task file
+            * [x] Create Restful routes    
