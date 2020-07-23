@@ -23,13 +23,33 @@
 
     * nodemon
 
-## TODO
+## Tasks List
 
-* [x] Setup Project
+*  Setup 
     * [x] Install express
     * [x] Install dotenv
-    * [x] Create folder src
-    * [x] Create file index in src
-    * [x] Create file app in src
+    * [x] Install nodemon dev
     * [x] Add comand start to package.json
     * [x] Add comand dev to package.json
+*   Scaffold
+    * [x] Create folder src
+    * [x] Create folder src/controllers
+    * [x] Create folder src/middlewares
+    * [x] Create folder src/models
+    * [x] Create folder src/routes
+    * [x] Create folder src/routes/v1
+    * [x] Create file index in src
+    * [x] Create file app in src
+*   TODO
+    * Taks 
+        * Controllers 
+            * [x] Create Task file
+        * Middlewares
+            * [x] Create index file
+            * [x] Create logger file 
+        * Models 
+            * [x] Create Task file
+        * Routes 
+            * [x] Create index file
+            * [x] Create task file
+                * [x] Create Restful routes    
