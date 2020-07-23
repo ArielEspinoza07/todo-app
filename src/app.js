@@ -3,7 +3,6 @@ const express = require("express");
 const {logger} = require("./middlewares/index");
 
 const {taskRoutes} = require("./routes/v1/index");
-// const taskRoutes = require("./routes/v1/task");
 
 require("dotenv").config();
 
