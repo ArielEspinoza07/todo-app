@@ -1,4 +1,4 @@
-module.exports.TaskController = {
+const TaskController = {
   index(req, res) {
     res.json({
       status: "ok",
@@ -40,3 +40,5 @@ module.exports.TaskController = {
      });
   },
 };
+
+module.exports.TaskController = TaskController;

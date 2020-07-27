@@ -1,4 +1,4 @@
-const CorsError = require("./exceptions/cors");
+const CorsError = require("./exceptions/cors.exception");
 
 const whitelist = process.env.APP_WHITE_LIST;
 const corsOptions = {

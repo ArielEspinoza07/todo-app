@@ -1,2 +1,2 @@
-exports.errorMiddleware = require("./exception");
-exports.loggerMiddleware = require("./logger");
+exports.errorMiddleware = require("./exception.middleware");
+exports.loggerMiddleware = require("./logger.middleware");

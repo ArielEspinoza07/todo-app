@@ -45,25 +45,32 @@
     * [x] Create folder src/middlewares
     * [x] Create folder src/models
     * [x] Create folder src/routes
-    * [x] Create folder src/routes/v1
+        * [x] Create folder src/routes/api
+            * [x] Create folder src/routes/v1
     * [x] Create file index in src
     * [x] Create file app in src
+    * [x] Create file cors in src
 *   TODO
     * Controllers 
+        * When create a new file use {name}.controller
         * [x] Create Task file
     * Exceptions 
+        * When create a new file use {name}.exception
         * [x] Create index file
         * [x] Create cors file
             * [x] Create cors error
     * Middlewares
+        * When create a new file use {name}.middleware
         * [x] Create index file
         * [x] Create logger file 
             * [x] Log information (route. method, time) 
         * [x] Create error file 
             * [x] Handling errors and return json response 
     * Models 
+        * When create a new file use {name}.model
         * [x] Create Task file
     * Routes 
+        * When create a new file use {name}.route
         * [x] Create index file
         * [x] Create task file
             * [x] Create Restful routes    
