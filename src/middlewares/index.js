@@ -1,1 +1,2 @@
-exports.logger = require('./Logger');
+exports.errorMiddleware = require("./exception");
+exports.loggerMiddleware = require("./logger");

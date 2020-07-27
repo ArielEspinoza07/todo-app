@@ -1,47 +1,16 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
 
-router.get("/", (req, res) => {
+const { taskController, TaskController} = require("../../controllers/taskController");
 
-    res.json({
-        status: "ok",
-        message: "Success",
-        query: req.query
-    });
-});
+router.get("/",TaskController.index);
 
-router.post("/", (req, res) => {
+router.post("/", TaskController.store);
 
-    res.json({
-        status: "ok",
-        message: "Success",
-        params: req.body
-    });
-});
+router.get("/:id", TaskController.show);
 
-router.get("/:id", (req, res) => {
+router.put("/:id", TaskController.update);
 
-    res.json({
-        status: "ok",
-        message: "Success",
-        params: req.params
-    });
-});
-
-router.put("/:id", (req, res) => {
-    res.json({
-        status: "ok",
-        message: "Success",
-        params: req.body
-    });
-});
-
-router.delete("/:id", (req, res) => {
-    res.json({
-        status: "ok",
-        message: "Success",
-        params: req.params
-    });
-});
+router.delete("/:id", TaskController.destroy);
 
 module.exports = router;

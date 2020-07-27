@@ -1,1 +1,1 @@
-exports.taskRoutes = require('./task');
+exports.taskRoutes = require("./task");

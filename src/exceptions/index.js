@@ -1,0 +1,1 @@
+exports.corsError = require("./cors");

@@ -18,6 +18,8 @@
 
     * express
     * dotenv
+    * body-parser
+    * cors
 
 ## DevDependencies
 
@@ -28,12 +30,18 @@
 *  Setup 
     * [x] Install express
     * [x] Install dotenv
+    * [x] Install body-parser
+    * [x] Install cors
     * [x] Install nodemon dev
     * [x] Add comand start to package.json
     * [x] Add comand dev to package.json
+*   Cors
+    * [x] Add cors file
+    * [x] Add configuration to enable/disable with whitelist
 *   Scaffold
     * [x] Create folder src
     * [x] Create folder src/controllers
+    * [x] Create folder src/exceptions
     * [x] Create folder src/middlewares
     * [x] Create folder src/models
     * [x] Create folder src/routes
@@ -43,9 +51,16 @@
 *   TODO
     * Controllers 
         * [x] Create Task file
+    * Exceptions 
+        * [x] Create index file
+        * [x] Create cors file
+            * [x] Create cors error
     * Middlewares
         * [x] Create index file
         * [x] Create logger file 
+            * [x] Log information (route. method, time) 
+        * [x] Create error file 
+            * [x] Handling errors and return json response 
     * Models 
         * [x] Create Task file
     * Routes 
