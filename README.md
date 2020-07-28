@@ -93,6 +93,8 @@
         * [x] Create error file 
             * [x] Add const errorTypes and errorMessages  
             * [x] Handling errors and return json response 
+        * [ ] Add auth file
+            * [ ] Handle authentication
     *   Models 
         * When create a new file use {name}.model
         * [ ] Create Project model
@@ -110,8 +112,15 @@
     *   Routes 
         * When create a new file use {name}.route
         * [x] Create index file  to require all routes
+        * [ ] Create project file
+            * [ ] Create Restful routes, 
+            * [ ] Use controller and call functions for the routes
         * [x] Create task file
-            * [x] Create Restful routes, use controller and call functions for all the routes    
+            * [x] Create Restful routes, 
+            * [x] Use controller and call functions for the routes 
+        * [ ] Create user file
+            * [ ] Create Restful routes, 
+            * [ ] Use controller and call functions for the routes
     *   Schemas
         * When create a new file use {name}.schema
         * [x] Create project file
