@@ -1,1 +1,1 @@
-exports.corsError = require("./cors.exception");
+exports.CorsError = require("./cors.exception");

@@ -1,8 +1,11 @@
 const errorTypes = {
   CorsError: 401,
+  NotFoundError: 404,
   ValidationError: 422,
 };
-const errorMessages = {};
+const errorMessages = {
+  NotFoundError: "Not Found"
+};
 const error = (error, req, res, next) => {
   console.log("------------------------------");
   console.error("Error ");

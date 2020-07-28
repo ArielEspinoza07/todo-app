@@ -14,12 +14,19 @@
 
     * npm run dev
 
+## Migrations
+    * npm run migrate
+    * npm run rollback
+
 ## Dependencies
 
-    * express
-    * dotenv
     * body-parser
     * cors
+    * dotenv
+    * express
+    * knex
+    * mysql2
+    * objection
 
 ## DevDependencies
 
@@ -27,50 +34,69 @@
 
 ## Tasks List
 
-*  Setup 
-    * [x] Install express
-    * [x] Install dotenv
-    * [x] Install body-parser
-    * [x] Install cors
-    * [x] Install nodemon dev
-    * [x] Add comand start to package.json
-    * [x] Add comand dev to package.json
-*   Cors
-    * [x] Add cors file
-    * [x] Add configuration to enable/disable with whitelist
+*   Setup 
+    *   Dependencies
+        * [x] Install body-parser
+        * [x] Install cors
+        * [x] Install dotenv
+        * [x] Install express
+        * [x] Install knex
+        * [x] Install mysql2
+        * [x] Install objection
+    *   DevDependencies
+        * [x] Install nodemon dev
+    *   Commands
+        * [x] Add comand start to package.json
+        * [x] Add comand dev to package.json
+        * [x] Add comand migrate to package.json
+        * [x] Add comand rollback to package.json
+
 *   Scaffold
+    * [x] Create folder db
+        * [x] Create folder migrations to store knex migrations
     * [x] Create folder src
-    * [x] Create folder src/controllers
-    * [x] Create folder src/exceptions
-    * [x] Create folder src/middlewares
-    * [x] Create folder src/models
-    * [x] Create folder src/routes
-        * [x] Create folder src/routes/api
-            * [x] Create folder src/routes/v1
-    * [x] Create file index in src
-    * [x] Create file app in src
-    * [x] Create file cors in src
+        * [x] Create folder controllers
+        * [x] Create folder exceptions
+        * [x] Create folder middlewares
+        * [x] Create folder models
+        * [x] Create folder routes
+            * [x] Create folder api
+                * [x] Create folder v1
+        * [x] Create folder schemas
+        * [x] Create file app
+        * [x] Create file cors
+        * [x] Create file db
+            * [x] Create connection and set to the model
+        * [x] Create file index
+        * [x] Create knexfile
+            * [x] Create general db config for knex (DB accepted mysql, postgre, sqlite3)
+
 *   TODO
-    * Controllers 
+    *   Controllers 
         * When create a new file use {name}.controller
-        * [x] Create Task file
-    * Exceptions 
+        * [x] Create Task restful controller
+    *   Exceptions 
         * When create a new file use {name}.exception
-        * [x] Create index file
+        * [x] Create index file  to require all exceptions
         * [x] Create cors file
-            * [x] Create cors error
-    * Middlewares
+            * [x] Create cors error class
+    *   Middlewares
         * When create a new file use {name}.middleware
-        * [x] Create index file
+        * [x] Create index file to require all middlewares
         * [x] Create logger file 
-            * [x] Log information (route. method, time) 
+            * [x] Log information (route, method, time) 
         * [x] Create error file 
             * [x] Handling errors and return json response 
-    * Models 
+    *   Models 
         * When create a new file use {name}.model
-        * [x] Create Task file
-    * Routes 
+        * [x] Create Task model that use the respective schema
+    *   Routes 
         * When create a new file use {name}.route
-        * [x] Create index file
+        * [x] Create index file  to require all routes
         * [x] Create task file
-            * [x] Create Restful routes    
+            * [x] Create Restful routes, use controller functions    
+    *   Schemas
+        * When create a new file use {name}.schema
+        * [x] Create project file
+        * [x] Create task file
+        * [x] Create user file
