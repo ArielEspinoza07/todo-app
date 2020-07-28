@@ -82,6 +82,7 @@
             * [x] Handle cors error
             * [x] Add whitelist to except
             * [x] Get whitelist from env file
+            * [x] If environment is development continue
     *   Middlewares
         * When create a new file use {name}.middleware
         * [x] Create index file to require all middlewares
