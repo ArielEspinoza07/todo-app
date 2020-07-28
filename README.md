@@ -74,6 +74,7 @@
 *   TODO
     *   Controllers 
         * When create a new file use {name}.controller
+        * [ ] Create Auth restful controller
         * [ ] Create Project restful controller
         * [x] Create Task restful controller
         * [ ] Create User restful controller
@@ -112,15 +113,18 @@
     *   Routes 
         * When create a new file use {name}.route
         * [x] Create index file  to require all routes
+        * [ ] Create auht file
+            * [ ] Add login, logout, register routes, 
+            * [ ] Use Auth controller and call functions for the routes
         * [ ] Create project file
             * [ ] Create Restful routes, 
-            * [ ] Use controller and call functions for the routes
+            * [ ] Use Project controller and call functions for the routes
         * [x] Create task file
             * [x] Create Restful routes, 
-            * [x] Use controller and call functions for the routes 
+            * [x] Use Task controller and call functions for the routes 
         * [ ] Create user file
             * [ ] Create Restful routes, 
-            * [ ] Use controller and call functions for the routes
+            * [ ] Use User controller and call functions for the routes
     *   Schemas
         * When create a new file use {name}.schema
         * [x] Create project file
