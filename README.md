@@ -74,13 +74,15 @@
 *   TODO
     *   Controllers 
         * When create a new file use {name}.controller
+        * [ ] Create Project restful controller
         * [x] Create Task restful controller
+        * [ ] Create User restful controller
     *   Exceptions 
         * When create a new file use {name}.exception
         * [x] Create index file  to require all exceptions
         * [x] Create cors file
             * [x] Handle cors error
-            * [x] Add whitelist to except
+            * [x] Add whitelist or urls
             * [x] Get whitelist from env file
             * [x] If environment is development continue
     *   Middlewares
@@ -93,10 +95,18 @@
             * [x] Handling errors and return json response 
     *   Models 
         * When create a new file use {name}.model
+        * [ ] Create Project model
+            * [ ] Set table name
+            * [ ] Set table primary key
+            * [ ] Set schema
         * [x] Create Task model
             * [x] Set table name
             * [x] Set table primary key
             * [x] Set schema
+        * [ ] Create User model
+            * [ ] Set table name
+            * [ ] Set table primary key
+            * [ ] Set schema
     *   Routes 
         * When create a new file use {name}.route
         * [x] Create index file  to require all routes
