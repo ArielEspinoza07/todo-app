@@ -46,10 +46,10 @@
     *   DevDependencies
         * [x] Install nodemon dev
     *   Commands
-        * [x] Add comand start to package.json
-        * [x] Add comand dev to package.json
-        * [x] Add comand migrate to package.json
-        * [x] Add comand rollback to package.json
+        * [x] Add comand start
+        * [x] Add comand dev
+        * [x] Add comand migrate
+        * [x] Add comand rollback
 
 *   Scaffold
     * [x] Create folder db
@@ -79,22 +79,28 @@
         * When create a new file use {name}.exception
         * [x] Create index file  to require all exceptions
         * [x] Create cors file
-            * [x] Create cors error class
+            * [x] Handle cors error
+            * [x] Add whitelist to except
+            * [x] Get whitelist from env file
     *   Middlewares
         * When create a new file use {name}.middleware
         * [x] Create index file to require all middlewares
         * [x] Create logger file 
             * [x] Log information (route, method, time) 
         * [x] Create error file 
+            * [x] Add const errorTypes and errorMessages  
             * [x] Handling errors and return json response 
     *   Models 
         * When create a new file use {name}.model
-        * [x] Create Task model that use the respective schema
+        * [x] Create Task model
+            * [x] Set table name
+            * [x] Set table primary key
+            * [x] Set schema
     *   Routes 
         * When create a new file use {name}.route
         * [x] Create index file  to require all routes
         * [x] Create task file
-            * [x] Create Restful routes, use controller functions    
+            * [x] Create Restful routes, use controller and call functions for all the routes    
     *   Schemas
         * When create a new file use {name}.schema
         * [x] Create project file
