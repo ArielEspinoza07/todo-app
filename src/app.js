@@ -10,7 +10,7 @@ const corsOptions = require("./cors");
 
 const {errorMiddleware,loggerMiddleware} = require("./middlewares/index");
 
-const v1 = require("./routes/api/v1/index");
+const api = require("./routes/api/index");
 
 const app = express();
 
@@ -28,7 +28,7 @@ app.get("/", (req, res) => {
     });
 });
 
-app.use("/api/v1", v1);
+app.use("/api", api);
 
 app.use(errorMiddleware);
 
