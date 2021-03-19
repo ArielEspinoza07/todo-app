@@ -8,24 +8,23 @@ require("./db");
 
 const corsOptions = require("./cors");
 
-const {errorMiddleware,loggerMiddleware} = require("./middlewares/index");
+const { errorMiddleware, loggerMiddleware } = require("./middlewares/index");
 
 const api = require("./routes/api/index");
 
 const app = express();
 
-app.use(bodyParser.urlencoded({extended:true}));
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cors(corsOptions));
 app.use(loggerMiddleware);
 
 app.get("/", (req, res) => {
-
-    res.json({
-        status: true,
-        message: "Success",
-        data: [],
-    });
+  res.json({
+    status: true,
+    message: "Success",
+    data: [],
+  });
 });
 
 app.use("/api", api);
