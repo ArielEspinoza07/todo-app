@@ -31,6 +31,8 @@
 ## DevDependencies
 
     * nodemon
+    * morgan
+    * eslint
 
 ## Tasks List
 
@@ -44,7 +46,9 @@
         * [x] Install mysql2
         * [x] Install objection
     *   DevDependencies
-        * [x] Install nodemon dev
+        * [x] Install nodemon
+        * [x] Install morgan
+        * [x] Install eslint
     *   Commands
         * [x] Add comand start
         * [x] Add comand dev
@@ -89,8 +93,6 @@
     *   Middlewares
         * When create a new file use {name}.middleware
         * [x] Create index file to require all middlewares
-        * [x] Create logger file 
-            * [x] Log information (route, method, time) 
         * [x] Create error file 
             * [x] Add const errorTypes and errorMessages  
             * [x] Handling errors and return json response 
