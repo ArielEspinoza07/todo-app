@@ -19,7 +19,7 @@
     "express": "^4.17.1",
     "knex": "^0.21.19",
     "mysql2": "^2.2.5",
-    "objection": "^2.2.15"
+    "objection": "^2.2.16"
   },
   "devDependencies": {
     "eslint": "^7.26.0",
